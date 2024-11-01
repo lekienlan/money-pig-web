@@ -23,7 +23,7 @@ html {
 }
 
 .team-card:hover :is(h2, p) {
-  color: #e11d48;
+  color: #ff79a7;
 }
 
 .team-card:hover .icons {
@@ -32,7 +32,7 @@ html {
 }
 
 input::placeholder {
-  color: #e11d48;
+  color: #ff79a7;
 }
 
 @keyframes playPluse {
