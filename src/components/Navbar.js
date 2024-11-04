@@ -14,8 +14,6 @@ import { useTheme } from 'next-themes';
 import Image from 'next/image';
 
 const Navbar = () => {
-  const [toggleMenu, setToggleMenu] = useState(false);
-  const [selectedItem, setSelectedItem] = useState('/');
   const { theme, setTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
   const navbar = useRef();
@@ -53,22 +51,13 @@ const Navbar = () => {
 
         <div>
           <ul
-            className={`${toggleMenu === true ? 'left-0' : '-left-full'} ${
-              theme === 'dark' ? 'text-white' : 'text-black'
-            } z-50 flex md:items-center gap-1 md:gap-5 lg:gap-10 md:relative absolute top-0 md:left-0 w-80 transition-all duration-500 h-screen md:w-auto md:h-auto flex-col md:flex-row shadow-2xl py-24 px-10 md:p-0 md:shadow-none`}
+            className={`text-black flex items-center gap-5  `}
           >
-            <button
-              className={`${
-                theme === 'dark' ? 'text-white' : 'text-black'
-              } md:hidden absolute top-6 right-5`}
-              onClick={() => setToggleMenu(false)}
-            >
-              <CloseOutlinedIcon />
-            </button>
+       
             <li
               key={'home'}
               className={
-                'capitalize border-b py-4 md:border-none md:py-0 hover:text-[#FF79A7]'
+                'capitalize py-4 md:border-none md:py-0 hover:text-[#FF79A7]'
               }
             >
               <Link href={`/`}>Trang chủ</Link>
@@ -76,7 +65,7 @@ const Navbar = () => {
             <li
               key={'dieu-khoan'}
               className={
-                'capitalize border-b py-4 md:border-none md:py-0 hover:text-[#FF79A7]'
+                'capitalize py-4 md:border-none md:py-0 hover:text-[#FF79A7]'
               }
             >
               <Link href={'/dieu-khoan'}>Điều khoản</Link>
@@ -86,7 +75,7 @@ const Navbar = () => {
                 key={link}
                 className={`${
                   selectedItem === link ? 'text-rose-600' : ''
-                } capitalize border-b py-4 md:border-none md:py-0 hover:text-rose-600`}
+                } capitalize py-4 md:border-none md:py-0 hover:text-rose-600`}
                 onClick={() => setSelectedItem(link)}
               >
                 <Link href={`#${link}`}>{link}</Link>

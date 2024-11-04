@@ -9,7 +9,7 @@ const dmSans = Inter({
 
 export const metadata = {
   title: 'Money Pig',
-  description: '',
+  description: 'Hãy bắt đầu hành trình quản lý tài chính thông minh hơn cùng Money Pig!',
 };
 
 export default function RootLayout({ children }) {

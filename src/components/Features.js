@@ -37,12 +37,12 @@ const Features = () => {
           desc='Đi học, đi chơi, du lịch, ăn uống cùng bạn bè. Muôn vàn mục đích sử dụng tài chính.'
         />
         <FeatureProduct
-          imgSrc='/features/1.png'
+          imgSrc='/features/4.png'
           title='Chọn Ngày Bắt Đầu Cá Nhân'
           desc='Bạn không nhận lương vào đầu tháng? Đừng lo vì hãy chọn ngày bắt đầu theo ý bạn.'
         />
         <FeatureProduct
-          imgSrc='/features/2.png'
+          imgSrc='/features/3.png'
           title='Báo Cáo Chi Tiết'
           desc='Xem báo cáo theo thời gian thực và tóm tắt hàng tháng để hiểu rõ hơn về tài chính cá nhân.'
         />

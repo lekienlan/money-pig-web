@@ -28,10 +28,10 @@ const Footer = () => {
           </p>
           <div className='flex mt-8 space-x-6'>
             <Link
-              href='https://www.facebook.com/profile.php?id=100017192357822&sk'
+              href='https://www.facebook.com/profile.php?id=61567211113727'
               target='_blank'
             >
-              <FacebookOutlinedIcon className='hover:text-rose-600 hover:-translate-y-1 transition-all' />
+              <FacebookOutlinedIcon />
             </Link>
             {/* <Link href='https://github.com/NaseemKhan005' target='_blank'>
               <GitHubIcon className='hover:text-rose-600 hover:-translate-y-1 transition-all' />
@@ -46,10 +46,10 @@ const Footer = () => {
               <TwitterIcon className='hover:text-rose-600 hover:-translate-y-1 transition-all' />
             </Link> */}
             <Link
-              href='https://www.instagram.com/naseem_khan005/'
+              href='https://www.instagram.com/moneypig.app?igsh=b21kbnZycng2cGw3'
               target='_blank'
             >
-              <InstagramIcon className='hover:text-rose-600 hover:-translate-y-1 transition-all' />
+              <InstagramIcon  />
             </Link>
           </div>
         </div>

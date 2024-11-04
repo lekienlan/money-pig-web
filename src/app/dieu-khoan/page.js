@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function DieuKhoan() {
   return (
-    <div className='mt-[100px] max-w-[1024px] mx-auto'>
+    <div className='mt-[100px] max-w-[1024px] mx-auto p-4'>
       <section>
         <h2 class='text-3xl font-semibold text-black mb-4'>Giới Thiệu</h2>
         <p class='mb-4'>
